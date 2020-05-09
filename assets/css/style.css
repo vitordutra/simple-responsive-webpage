@@ -163,11 +163,31 @@ footer .menu a {
   color: #6c757d;
 }
 
+.menu .open-menu {
+  display: none;
+}
+
 /* Estilo responsivo: media queries */
 
 @media (max-width: 450px) {
+  header .header-border {
+    justify-content: space-between;
+  }
+  .menu {
+    width: 60px;
+    flex: initial;
+  }
   .menu ul {
     display: none;
+  }
+  .menu .open-menu {
+    display: block;
+    font-size: 2em;
+    padding: 0.9rem;
+    flex: 1;
+    background: none;
+    border: none;
+    color: #fff;
   }
   #register {
     width: 90%;
