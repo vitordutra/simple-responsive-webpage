@@ -44,6 +44,7 @@ header .bg-gradient {
 
 header .header-border {
   display: flex;
+  border-bottom: rgba(255, 255, 255, 0.25) 1px solid;
 }
 
 header #logo {
