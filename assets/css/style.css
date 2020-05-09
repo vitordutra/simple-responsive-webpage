@@ -19,8 +19,33 @@ header {
 
 header #logo {
   width: 200px;
+  color: #fff;
+  line-height: 60px;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: #000 1px 1px 8px;
 }
 
 header #menu {
   flex: 1;
+}
+
+header #menu ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  padding: 0;
+}
+
+header #menu li {
+  min-width: 100px;
+  line-height: 28px;
+}
+
+header #menu a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 20px;
 }
