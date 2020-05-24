@@ -2,9 +2,9 @@
 
 Simple prototype of a responsive webpage using HTML, CSS and JavaScript.
 
-<h1 align="center" alt="screenshot">
+<p align="center" alt="screenshot">
   <img src="https://ik.imagekit.io/nfbjje2exl/ezgif.com-video-to-gif__1__txpw75gqy.gif">
-</h1>
+</p>
 
 ## About
 This project was developed to level up my skills with HTML, CSS and Vanilla JavaScript to build a Responsive WebPage Model, without functionality
